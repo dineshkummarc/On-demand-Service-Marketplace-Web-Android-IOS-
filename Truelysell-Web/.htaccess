@@ -1,26 +1,6 @@
-
-
-
 RewriteEngine On
-
-
-
-RewriteBase /truelysell-web/
-
-
-
+RewriteBase /on-demand-service-marketplace-web-android-ios-/truelysell-web/
 RewriteRule ^index\.php$ - [L]
-
-
-
 RewriteCond %{REQUEST_FILENAME} !-f
-
-
-
 RewriteCond %{REQUEST_FILENAME} !-d
-
-
-
-RewriteRule . /truelysell-web/index.php [L]
-
-
+RewriteRule . /on-demand-service-marketplace-web-android-ios-/truelysell-web/index.php [L]
